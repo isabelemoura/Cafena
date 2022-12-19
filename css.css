@@ -1,0 +1,193 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family:Calibri;
+}
+
+#divTitulo{
+	background:black;
+	font-size:40px;
+	color:white;
+	font-family:Segoe script;
+
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+ul{
+	list-style: none;
+}
+
+#divTitulo img{
+	height:100px;
+	width:100px;
+}
+#divMenu{
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	background:black;
+	width:10%;
+	padding:10px;
+}
+
+#divMenu ul{
+	display: flex;
+	flex-direction: row;
+}
+
+#divMenu ul ul{
+	display:none;
+}
+
+#divMenu li {
+	list-style-type:none;
+	margin: 10px;
+}
+#divConteudo{
+	background-color: brown;
+	color:white;	
+	padding:10px;
+	height:580px;
+	overflow:auto;
+}
+
+#divConteudo div div{
+	background-color: brown;
+	display:none;
+}
+
+#divConteudo #produtos h1{
+	color:white;
+	background: black;
+	margin-top: 10px;
+}
+#divRodape{
+	background-color: black;
+	color:white;
+	float:left;
+	width:100%;
+}
+
+#divRodape #email{
+	float:right;
+}
+#divCafe img{
+	height:50px;
+	width:50px;
+}
+
+#sobre{
+	text-align: justify;
+	margin: auto;
+	padding-top: 100px;
+	width: 70%;
+}
+#sobre h2{
+	margin-top: 10px;
+}
+#fornecedores{
+	text-align: center;
+}
+
+#fornecedores h2{
+	margin-top: 10px;
+}
+
+#divAdmin{
+	height:80px;
+	width:100px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size:12px;
+	background-color: black;
+	color: white;
+}	
+
+#noticias{
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	width: 400px;
+	margin: auto;
+}
+#h1Noticias{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+	#divMenu{
+		top: 0px;
+		left: 80%;
+		padding: 0;
+	}
+	#divMenu ul{
+		flex-direction: column;
+	}
+	#sobre{
+		padding-top: 10px;
+		overflow: visible;
+	}
+}
+
+@media screen and (max-width: 400px) {
+    #divConteudo{
+        width: 73%;
+        font-size: 10px;
+        height: 70px;
+		width: 140px;
+        height: 100%;
+    }
+	
+	#divConteudo #produtos h1{
+		width: 73%;
+        font-size: 10px;
+        height: 70px;
+		width: 140px;
+        height: 100%;
+    }
+ 	#divMenu{
+        width: 73%;
+        font-size: 10px;
+        height: 200px;
+        margin: 20px;
+		background: red;
+    }
+
+	#divMenu ul ul{
+		list-style-type:none;
+		border: 1px solid white;
+	}
+
+	#divMenu li li{
+		list-style-type:none;
+		border: 1px solid white;
+		background: red;
+	}
+
+	#divTitulo{
+        width: 73%;
+        font-size: 10px;
+        height: 70px;
+		width: 140px;
+        height: 100%;
+    }
+	#divRodape{
+        width: 73%;
+        font-size: 10px;
+        height: 70px;
+		width: 140px;
+        height: 100%;
+    }
+}
+   

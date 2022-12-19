@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:arial;
+}
+
+#divTitulo{
+	background:black;
+	text-align: center;
+	padding: 20px;
+	font-size:40px;
+	color:white;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+#divMenu{	
+	padding: 10px;
+	text-align: end;
+	background:brown;
+	color:white;
+}
+
+#divMenu a{	
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+}
+
+#Login{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+	border-radius: 5px;
+}
+
+#Login input{
+	padding: 5px;
+	border: 0;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+
+#Login h1{
+	color: white;
+}
+
+#Login #btn{
+	width: 100%;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+	color: white;
+	font-weight: 800;
+}
+
+#container{
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	height: 800px;
+}
+
+#Adm{
+	text-align: center;
+	padding: 20px;
+	background: black;
+	color: white;
+}
+
+#consulta{
+	margin: 20px;
+	padding: 20px;
+	width: 400px;
+	color: white;
+	background: rgba(0, 0, 0, 0.938);
+	border-radius: 5px;
+}
+
+#consulta input{
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0;
+}
+
+#consulta .btn{
+	background: brown;
+	color: white;
+	width: 100px;
+}
+
+#consultaPedido{
+	width: 350px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background: brown;
+}
+#consultaPedido p{
+	margin: 5px;
+}
+#consultaPedido a{
+	text-decoration: none;
+	color: white;
+}
+
+#carregarNoticia{
+	width: 400px;
+	margin: 20px;
+	border-radius: 10px;
+	background: rgb(0, 0, 0);
+	color: white;
+}
+
+#carregarNoticia form{
+	padding: 20px;
+}
+
+#carregarNoticia input, textarea{
+	padding: 5px;
+	border: none;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#carregarNoticia #grv, #lmp {
+	width: 100px;
+	background: brown;
+	color: white;
+}
