@@ -1,7 +1,5 @@
 # Cafena
 
-## Sobre
-
 Somos extremamente exigentes e procuramos trabalhar com eficiência e transparência. 
 Temos uma vasta gama de conhecimentos e experiências como líder do segmento de 
 vending machine no Brasil e continuamos a expandir nossos serviços diariamente. 
