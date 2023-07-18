@@ -1,7 +1,7 @@
 # Cafena
 
 <div align="center">
-  <img src="[link_para_logo_cafena.png](https://images.app.goo.gl/P7tWpEv6Zbm3we2R6)" alt="Logo Cafena">
+  <img src="logo.png" alt="Logo Cafena">
 </div>
 
 ## Sobre
