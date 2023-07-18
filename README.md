@@ -1,9 +1,5 @@
 # Cafena
 
-<div align="center">
-  <img src="logo.png" alt="Logo Cafena">
-</div>
-
 ## Sobre
 
 Somos extremamente exigentes e procuramos trabalhar com eficiência e transparência. 
@@ -26,6 +22,6 @@ O objetivo da Cafena é sempre oferecer produtos de qualidade, priorizar o clien
 Ser reconhecida como a melhor rede de cafeteiria do Brasil, ser eficiente e inovadora, sempre visando o crescimento seguro e sustentável.
 
 <div align="center">
-  <img src="link_para_foto_cafeteria.png" alt="Foto da Cafeteria">
+  <img src="cafe.png" alt="Foto da Cafeteria">
 </div>
 
